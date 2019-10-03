@@ -1,15 +1,15 @@
-To start the App
+## To start the App
 
-FOR FRONTEND
+## FOR FRONTEND
 
-cd frontend
-npm install
-ng serve
+## cd frontend
+## npm install
+## ng serve
 
-Then, in another terminal
+## Then, in another terminal
 
-cd backend
-npm install 
-nodemon server
+## cd backend
+## npm install 
+## nodemon server
 
-Open the App on localhost:4200
+## Open the App on localhost:4200
