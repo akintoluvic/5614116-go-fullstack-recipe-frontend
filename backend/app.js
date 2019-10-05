@@ -51,7 +51,7 @@ app.get('/api/recipes/:id', (req, res, next) => {
   Recipe.findOne({
     _id: req.params.id
   }).then(
-    (thing) => {
+    (recipe) => {
       res.status(200).json(recipe);
     }
   ).catch(
